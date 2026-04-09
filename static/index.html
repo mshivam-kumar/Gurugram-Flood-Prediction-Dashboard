@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gurugram Flood Prediction Dashboard</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="/static/css/app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>Gurugram Flood Prediction Dashboard</h1>
+      </div>
+      <div class="status-block">
+        <span id="healthBadge" class="badge">Checking model</span>
+        <span id="modeBadge" class="badge secondary">Static</span>
+      </div>
+    </header>
+
+    <main class="dashboard-grid">
+      <section class="map-panel">
+        <div class="map-toolbar">
+          <div>
+            <div id="selectedTitle" class="panel-title">Loading scenarios</div>
+          </div>
+        </div>
+        <div class="map-stage">
+          <div id="map"></div>
+          <div class="map-legend-card">
+            <div class="map-legend-title">Depth Scale</div>
+            <div id="legend" class="legend"></div>
+          </div>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-toprow">
+            <div class="controls">
+              <button id="prevFrameBtn" class="control-btn">◀</button>
+              <button id="playPauseBtn" class="control-btn primary">Play</button>
+              <button id="nextFrameBtn" class="control-btn">▶</button>
+            </div>
+            <div class="timeline-meta">
+              <span id="timeLabel">0h</span>
+              <span id="rainLabel">0.0 mm/hr</span>
+            </div>
+          </div>
+          <input id="timelineSlider" type="range" min="0" max="0" value="0" />
+        </div>
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel-card panel-card-sticky">
+          <h2>Mode</h2>
+          <div class="segmented">
+            <button id="staticModeBtn" class="segment active">Static</button>
+            <button id="dynamicModeBtn" class="segment">Dynamic</button>
+            <button id="liveModeBtn" class="segment">Live</button>
+          </div>
+        </section>
+
+        <section class="panel-card">
+          <h2>Visualization</h2>
+          <label class="field-label" for="layerSelect">Flood layer</label>
+          <select id="layerSelect"></select>
+        </section>
+
+        <section class="panel-card">
+          <h2>Context Layers</h2>
+          <div class="toggle-stack">
+            <div class="toggle-row">
+              <label class="toggle-label" for="outlineToggle">City outline</label>
+              <input id="outlineToggle" type="checkbox" checked />
+            </div>
+            <div class="toggle-row">
+              <label class="toggle-label" for="colonyToggle">Colonies</label>
+              <input id="colonyToggle" type="checkbox" checked />
+            </div>
+            <div class="toggle-row">
+              <label class="toggle-label" for="drainageToggle">Drainage</label>
+              <input id="drainageToggle" type="checkbox" checked />
+            </div>
+            <div class="toggle-row">
+              <label class="toggle-label" for="gridToggle">Study grid</label>
+              <input id="gridToggle" type="checkbox" />
+            </div>
+            <div class="toggle-row">
+              <label class="toggle-label" for="hotspotToggle">Hotspots</label>
+              <input id="hotspotToggle" type="checkbox" />
+            </div>
+          </div>
+        </section>
+
+        <section id="staticPanel" class="panel-card">
+          <h2>Scenario</h2>
+          <label class="field-label" for="scenarioSelect">Scenario</label>
+          <select id="scenarioSelect"></select>
+        </section>
+
+        <section id="dynamicPanel" class="panel-card hidden">
+          <h2>Dynamic Forecast</h2>
+          <label class="field-label" for="dynamicTemplateSelect">Template</label>
+          <select id="dynamicTemplateSelect"></select>
+          <label class="field-label" for="hoursInput">Hours</label>
+          <input id="hoursInput" type="number" min="1" max="72" value="12" />
+          <label class="field-label" for="rainfallInput">Hourly rainfall (comma-separated)</label>
+          <textarea id="rainfallInput" rows="6"></textarea>
+          <button id="runDynamicBtn" class="run-btn">Generate Forecast</button>
+        </section>
+
+        <section id="livePanel" class="panel-card hidden">
+          <h2>Live Rainfall</h2>
+          <div class="live-weather-grid">
+            <div>
+              <span>Source</span>
+              <strong id="liveSourceStat">Not loaded</strong>
+            </div>
+            <div>
+              <span>Peak rain</span>
+              <strong id="livePeakRainStat">0.0 mm/hr</strong>
+            </div>
+          </div>
+          <label class="field-label" for="liveHoursInput">Forecast hours</label>
+          <input id="liveHoursInput" type="number" min="1" max="72" value="12" />
+          <button id="refreshLiveBtn" class="run-btn secondary">Refresh Rainfall</button>
+          <button id="runLiveBtn" class="run-btn">Generate Live Forecast</button>
+        </section>
+
+        <section class="panel-card">
+          <h2>Summary</h2>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span>Max depth</span>
+              <strong id="maxDepthStat">0.00 m</strong>
+            </div>
+            <div class="stat-card">
+              <span>Flooded area</span>
+              <strong id="floodedAreaStat">0.00 km²</strong>
+            </div>
+            <div class="stat-card">
+              <span>Flooded cells</span>
+              <strong id="floodedCellsStat">0</strong>
+            </div>
+            <div class="stat-card">
+              <span>Peak frame</span>
+              <strong id="peakFrameStat">0h</strong>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
