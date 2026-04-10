@@ -1,0 +1,2527 @@
+{
+  "generated_at": null,
+  "num_frames": 148,
+  "peak_depth_m": 3.344,
+  "peak_frame": 107,
+  "peak_label": "26.75h",
+  "peak_flooded_area_km2": 29.76,
+  "total_inference_ms": 0.0,
+  "frames": [
+    {
+      "idx": 0,
+      "timestamp": null,
+      "minutes_from_start": 0,
+      "label": "0h",
+      "rainfall_mm_hr": 1.726,
+      "max_depth_m": 0.037,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.011069
+    },
+    {
+      "idx": 1,
+      "timestamp": null,
+      "minutes_from_start": 15,
+      "label": "0.25h",
+      "rainfall_mm_hr": 1.726,
+      "max_depth_m": 0.063,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.018712
+    },
+    {
+      "idx": 2,
+      "timestamp": null,
+      "minutes_from_start": 30,
+      "label": "0.50h",
+      "rainfall_mm_hr": 1.726,
+      "max_depth_m": 0.082,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.024455
+    },
+    {
+      "idx": 3,
+      "timestamp": null,
+      "minutes_from_start": 45,
+      "label": "0.75h",
+      "rainfall_mm_hr": 1.726,
+      "max_depth_m": 0.096,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.028838
+    },
+    {
+      "idx": 4,
+      "timestamp": null,
+      "minutes_from_start": 60,
+      "label": "1h",
+      "rainfall_mm_hr": 1.743,
+      "max_depth_m": 0.108,
+      "flooded_area_km2": 0.006,
+      "flooded_cells": 7,
+      "risk": {
+        "low": 7,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.032351
+    },
+    {
+      "idx": 5,
+      "timestamp": null,
+      "minutes_from_start": 75,
+      "label": "1.25h",
+      "rainfall_mm_hr": 1.743,
+      "max_depth_m": 0.118,
+      "flooded_area_km2": 0.02,
+      "flooded_cells": 25,
+      "risk": {
+        "low": 25,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.035147
+    },
+    {
+      "idx": 6,
+      "timestamp": null,
+      "minutes_from_start": 90,
+      "label": "1.50h",
+      "rainfall_mm_hr": 1.743,
+      "max_depth_m": 0.125,
+      "flooded_area_km2": 0.032,
+      "flooded_cells": 39,
+      "risk": {
+        "low": 39,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.037432
+    },
+    {
+      "idx": 7,
+      "timestamp": null,
+      "minutes_from_start": 105,
+      "label": "1.75h",
+      "rainfall_mm_hr": 1.743,
+      "max_depth_m": 0.132,
+      "flooded_area_km2": 0.09,
+      "flooded_cells": 111,
+      "risk": {
+        "low": 111,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.039351
+    },
+    {
+      "idx": 8,
+      "timestamp": null,
+      "minutes_from_start": 120,
+      "label": "2h",
+      "rainfall_mm_hr": 1.749,
+      "max_depth_m": 0.137,
+      "flooded_area_km2": 0.16,
+      "flooded_cells": 197,
+      "risk": {
+        "low": 197,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.041037
+    },
+    {
+      "idx": 9,
+      "timestamp": null,
+      "minutes_from_start": 135,
+      "label": "2.25h",
+      "rainfall_mm_hr": 1.749,
+      "max_depth_m": 0.142,
+      "flooded_area_km2": 0.182,
+      "flooded_cells": 225,
+      "risk": {
+        "low": 225,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.042521
+    },
+    {
+      "idx": 10,
+      "timestamp": null,
+      "minutes_from_start": 150,
+      "label": "2.50h",
+      "rainfall_mm_hr": 1.749,
+      "max_depth_m": 0.147,
+      "flooded_area_km2": 0.215,
+      "flooded_cells": 265,
+      "risk": {
+        "low": 265,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.043857
+    },
+    {
+      "idx": 11,
+      "timestamp": null,
+      "minutes_from_start": 165,
+      "label": "2.75h",
+      "rainfall_mm_hr": 1.749,
+      "max_depth_m": 0.151,
+      "flooded_area_km2": 0.244,
+      "flooded_cells": 301,
+      "risk": {
+        "low": 301,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.04508
+    },
+    {
+      "idx": 12,
+      "timestamp": null,
+      "minutes_from_start": 180,
+      "label": "3h",
+      "rainfall_mm_hr": 0.006,
+      "max_depth_m": 0.122,
+      "flooded_area_km2": 0.027,
+      "flooded_cells": 33,
+      "risk": {
+        "low": 33,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.036335
+    },
+    {
+      "idx": 13,
+      "timestamp": null,
+      "minutes_from_start": 195,
+      "label": "3.25h",
+      "rainfall_mm_hr": 0.006,
+      "max_depth_m": 0.102,
+      "flooded_area_km2": 0.001,
+      "flooded_cells": 1,
+      "risk": {
+        "low": 1,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.030564
+    },
+    {
+      "idx": 14,
+      "timestamp": null,
+      "minutes_from_start": 210,
+      "label": "3.50h",
+      "rainfall_mm_hr": 0.006,
+      "max_depth_m": 0.089,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.026732
+    },
+    {
+      "idx": 15,
+      "timestamp": null,
+      "minutes_from_start": 225,
+      "label": "3.75h",
+      "rainfall_mm_hr": 0.006,
+      "max_depth_m": 0.081,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.024174
+    },
+    {
+      "idx": 16,
+      "timestamp": null,
+      "minutes_from_start": 240,
+      "label": "4h",
+      "rainfall_mm_hr": 0.068,
+      "max_depth_m": 0.076,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.02278
+    },
+    {
+      "idx": 17,
+      "timestamp": null,
+      "minutes_from_start": 255,
+      "label": "4.25h",
+      "rainfall_mm_hr": 0.068,
+      "max_depth_m": 0.073,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.021851
+    },
+    {
+      "idx": 18,
+      "timestamp": null,
+      "minutes_from_start": 270,
+      "label": "4.50h",
+      "rainfall_mm_hr": 0.068,
+      "max_depth_m": 0.071,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.021235
+    },
+    {
+      "idx": 19,
+      "timestamp": null,
+      "minutes_from_start": 285,
+      "label": "4.75h",
+      "rainfall_mm_hr": 0.068,
+      "max_depth_m": 0.07,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.020829
+    },
+    {
+      "idx": 20,
+      "timestamp": null,
+      "minutes_from_start": 300,
+      "label": "5h",
+      "rainfall_mm_hr": 0.238,
+      "max_depth_m": 0.072,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.021436
+    },
+    {
+      "idx": 21,
+      "timestamp": null,
+      "minutes_from_start": 315,
+      "label": "5.25h",
+      "rainfall_mm_hr": 0.238,
+      "max_depth_m": 0.073,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.02189
+    },
+    {
+      "idx": 22,
+      "timestamp": null,
+      "minutes_from_start": 330,
+      "label": "5.50h",
+      "rainfall_mm_hr": 0.238,
+      "max_depth_m": 0.074,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.02224
+    },
+    {
+      "idx": 23,
+      "timestamp": null,
+      "minutes_from_start": 345,
+      "label": "5.75h",
+      "rainfall_mm_hr": 0.238,
+      "max_depth_m": 0.075,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.022518
+    },
+    {
+      "idx": 24,
+      "timestamp": null,
+      "minutes_from_start": 360,
+      "label": "6h",
+      "rainfall_mm_hr": 0.447,
+      "max_depth_m": 0.08,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.023831
+    },
+    {
+      "idx": 25,
+      "timestamp": null,
+      "minutes_from_start": 375,
+      "label": "6.25h",
+      "rainfall_mm_hr": 0.447,
+      "max_depth_m": 0.083,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.024804
+    },
+    {
+      "idx": 26,
+      "timestamp": null,
+      "minutes_from_start": 390,
+      "label": "6.50h",
+      "rainfall_mm_hr": 0.447,
+      "max_depth_m": 0.085,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.025543
+    },
+    {
+      "idx": 27,
+      "timestamp": null,
+      "minutes_from_start": 405,
+      "label": "6.75h",
+      "rainfall_mm_hr": 0.447,
+      "max_depth_m": 0.087,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.026121
+    },
+    {
+      "idx": 28,
+      "timestamp": null,
+      "minutes_from_start": 420,
+      "label": "7h",
+      "rainfall_mm_hr": 0.607,
+      "max_depth_m": 0.092,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.027436
+    },
+    {
+      "idx": 29,
+      "timestamp": null,
+      "minutes_from_start": 435,
+      "label": "7.25h",
+      "rainfall_mm_hr": 0.607,
+      "max_depth_m": 0.095,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.028433
+    },
+    {
+      "idx": 30,
+      "timestamp": null,
+      "minutes_from_start": 450,
+      "label": "7.50h",
+      "rainfall_mm_hr": 0.607,
+      "max_depth_m": 0.098,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.029212
+    },
+    {
+      "idx": 31,
+      "timestamp": null,
+      "minutes_from_start": 465,
+      "label": "7.75h",
+      "rainfall_mm_hr": 0.607,
+      "max_depth_m": 0.1,
+      "flooded_area_km2": 0.0,
+      "flooded_cells": 0,
+      "risk": {
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.02984
+    },
+    {
+      "idx": 32,
+      "timestamp": null,
+      "minutes_from_start": 480,
+      "label": "8h",
+      "rainfall_mm_hr": 0.751,
+      "max_depth_m": 0.104,
+      "flooded_area_km2": 0.001,
+      "flooded_cells": 1,
+      "risk": {
+        "low": 1,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.031139
+    },
+    {
+      "idx": 33,
+      "timestamp": null,
+      "minutes_from_start": 495,
+      "label": "8.25h",
+      "rainfall_mm_hr": 0.751,
+      "max_depth_m": 0.107,
+      "flooded_area_km2": 0.003,
+      "flooded_cells": 4,
+      "risk": {
+        "low": 4,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.032144
+    },
+    {
+      "idx": 34,
+      "timestamp": null,
+      "minutes_from_start": 510,
+      "label": "8.50h",
+      "rainfall_mm_hr": 0.751,
+      "max_depth_m": 0.11,
+      "flooded_area_km2": 0.009,
+      "flooded_cells": 11,
+      "risk": {
+        "low": 11,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.032946
+    },
+    {
+      "idx": 35,
+      "timestamp": null,
+      "minutes_from_start": 525,
+      "label": "8.75h",
+      "rainfall_mm_hr": 0.751,
+      "max_depth_m": 0.112,
+      "flooded_area_km2": 0.014,
+      "flooded_cells": 17,
+      "risk": {
+        "low": 17,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.033608
+    },
+    {
+      "idx": 36,
+      "timestamp": null,
+      "minutes_from_start": 540,
+      "label": "9h",
+      "rainfall_mm_hr": 0.959,
+      "max_depth_m": 0.118,
+      "flooded_area_km2": 0.02,
+      "flooded_cells": 25,
+      "risk": {
+        "low": 25,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.035302
+    },
+    {
+      "idx": 37,
+      "timestamp": null,
+      "minutes_from_start": 555,
+      "label": "9.25h",
+      "rainfall_mm_hr": 0.959,
+      "max_depth_m": 0.122,
+      "flooded_area_km2": 0.028,
+      "flooded_cells": 35,
+      "risk": {
+        "low": 35,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.036604
+    },
+    {
+      "idx": 38,
+      "timestamp": null,
+      "minutes_from_start": 570,
+      "label": "9.50h",
+      "rainfall_mm_hr": 0.959,
+      "max_depth_m": 0.126,
+      "flooded_area_km2": 0.033,
+      "flooded_cells": 41,
+      "risk": {
+        "low": 41,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.037636
+    },
+    {
+      "idx": 39,
+      "timestamp": null,
+      "minutes_from_start": 585,
+      "label": "9.75h",
+      "rainfall_mm_hr": 0.959,
+      "max_depth_m": 0.129,
+      "flooded_area_km2": 0.039,
+      "flooded_cells": 48,
+      "risk": {
+        "low": 48,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.038481
+    },
+    {
+      "idx": 40,
+      "timestamp": null,
+      "minutes_from_start": 600,
+      "label": "10h",
+      "rainfall_mm_hr": 3.136,
+      "max_depth_m": 0.172,
+      "flooded_area_km2": 0.342,
+      "flooded_cells": 422,
+      "risk": {
+        "low": 422,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.051439
+    },
+    {
+      "idx": 41,
+      "timestamp": null,
+      "minutes_from_start": 615,
+      "label": "10.25h",
+      "rainfall_mm_hr": 3.136,
+      "max_depth_m": 0.204,
+      "flooded_area_km2": 0.653,
+      "flooded_cells": 805,
+      "risk": {
+        "low": 805,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.060984
+    },
+    {
+      "idx": 42,
+      "timestamp": null,
+      "minutes_from_start": 630,
+      "label": "10.50h",
+      "rainfall_mm_hr": 3.136,
+      "max_depth_m": 0.228,
+      "flooded_area_km2": 0.903,
+      "flooded_cells": 1113,
+      "risk": {
+        "low": 1113,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.068032
+    },
+    {
+      "idx": 43,
+      "timestamp": null,
+      "minutes_from_start": 645,
+      "label": "10.75h",
+      "rainfall_mm_hr": 3.136,
+      "max_depth_m": 0.245,
+      "flooded_area_km2": 1.222,
+      "flooded_cells": 1507,
+      "risk": {
+        "low": 1507,
+        "moderate": 0,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.073304
+    },
+    {
+      "idx": 44,
+      "timestamp": null,
+      "minutes_from_start": 660,
+      "label": "11h",
+      "rainfall_mm_hr": 10.899,
+      "max_depth_m": 0.421,
+      "flooded_area_km2": 6.545,
+      "flooded_cells": 8069,
+      "risk": {
+        "low": 7853,
+        "moderate": 216,
+        "high": 0,
+        "severe": 0
+      },
+      "scale": 0.12592
+    },
+    {
+      "idx": 45,
+      "timestamp": null,
+      "minutes_from_start": 675,
+      "label": "11.25h",
+      "rainfall_mm_hr": 10.899,
+      "max_depth_m": 0.552,
+      "flooded_area_km2": 9.609,
+      "flooded_cells": 11847,
+      "risk": {
+        "low": 11248,
+        "moderate": 588,
+        "high": 11,
+        "severe": 0
+      },
+      "scale": 0.165035
+    },
+    {
+      "idx": 46,
+      "timestamp": null,
+      "minutes_from_start": 690,
+      "label": "11.50h",
+      "rainfall_mm_hr": 10.899,
+      "max_depth_m": 0.648,
+      "flooded_area_km2": 11.879,
+      "flooded_cells": 14645,
+      "risk": {
+        "low": 13716,
+        "moderate": 867,
+        "high": 62,
+        "severe": 0
+      },
+      "scale": 0.193652
+    },
+    {
+      "idx": 47,
+      "timestamp": null,
+      "minutes_from_start": 705,
+      "label": "11.75h",
+      "rainfall_mm_hr": 10.899,
+      "max_depth_m": 0.718,
+      "flooded_area_km2": 13.267,
+      "flooded_cells": 16356,
+      "risk": {
+        "low": 15001,
+        "moderate": 1119,
+        "high": 236,
+        "severe": 0
+      },
+      "scale": 0.214627
+    },
+    {
+      "idx": 48,
+      "timestamp": null,
+      "minutes_from_start": 720,
+      "label": "12h",
+      "rainfall_mm_hr": 13.988,
+      "max_depth_m": 0.842,
+      "flooded_area_km2": 15.538,
+      "flooded_cells": 19157,
+      "risk": {
+        "low": 16165,
+        "moderate": 2608,
+        "high": 384,
+        "severe": 0
+      },
+      "scale": 0.251838
+    },
+    {
+      "idx": 49,
+      "timestamp": null,
+      "minutes_from_start": 735,
+      "label": "12.25h",
+      "rainfall_mm_hr": 13.988,
+      "max_depth_m": 0.933,
+      "flooded_area_km2": 17.009,
+      "flooded_cells": 20970,
+      "risk": {
+        "low": 16900,
+        "moderate": 3438,
+        "high": 632,
+        "severe": 0
+      },
+      "scale": 0.278965
+    },
+    {
+      "idx": 50,
+      "timestamp": null,
+      "minutes_from_start": 750,
+      "label": "12.50h",
+      "rainfall_mm_hr": 13.988,
+      "max_depth_m": 1.0,
+      "flooded_area_km2": 17.932,
+      "flooded_cells": 22108,
+      "risk": {
+        "low": 17183,
+        "moderate": 4165,
+        "high": 760,
+        "severe": 0
+      },
+      "scale": 0.298936
+    },
+    {
+      "idx": 51,
+      "timestamp": null,
+      "minutes_from_start": 765,
+      "label": "12.75h",
+      "rainfall_mm_hr": 13.988,
+      "max_depth_m": 1.05,
+      "flooded_area_km2": 18.599,
+      "flooded_cells": 22930,
+      "risk": {
+        "low": 17339,
+        "moderate": 4737,
+        "high": 853,
+        "severe": 1
+      },
+      "scale": 0.313888
+    },
+    {
+      "idx": 52,
+      "timestamp": null,
+      "minutes_from_start": 780,
+      "label": "13h",
+      "rainfall_mm_hr": 14.309,
+      "max_depth_m": 1.096,
+      "flooded_area_km2": 19.188,
+      "flooded_cells": 23657,
+      "risk": {
+        "low": 17511,
+        "moderate": 5162,
+        "high": 973,
+        "severe": 11
+      },
+      "scale": 0.327665
+    },
+    {
+      "idx": 53,
+      "timestamp": null,
+      "minutes_from_start": 795,
+      "label": "13.25h",
+      "rainfall_mm_hr": 14.309,
+      "max_depth_m": 1.131,
+      "flooded_area_km2": 19.591,
+      "flooded_cells": 24153,
+      "risk": {
+        "low": 17535,
+        "moderate": 5528,
+        "high": 1073,
+        "severe": 17
+      },
+      "scale": 0.33829
+    },
+    {
+      "idx": 54,
+      "timestamp": null,
+      "minutes_from_start": 810,
+      "label": "13.50h",
+      "rainfall_mm_hr": 14.309,
+      "max_depth_m": 1.159,
+      "flooded_area_km2": 19.888,
+      "flooded_cells": 24519,
+      "risk": {
+        "low": 17556,
+        "moderate": 5751,
+        "high": 1191,
+        "severe": 21
+      },
+      "scale": 0.346716
+    },
+    {
+      "idx": 55,
+      "timestamp": null,
+      "minutes_from_start": 825,
+      "label": "13.75h",
+      "rainfall_mm_hr": 14.309,
+      "max_depth_m": 1.183,
+      "flooded_area_km2": 20.138,
+      "flooded_cells": 24828,
+      "risk": {
+        "low": 17598,
+        "moderate": 5922,
+        "high": 1283,
+        "severe": 25
+      },
+      "scale": 0.353604
+    },
+    {
+      "idx": 56,
+      "timestamp": null,
+      "minutes_from_start": 840,
+      "label": "14h",
+      "rainfall_mm_hr": 14.414,
+      "max_depth_m": 1.205,
+      "flooded_area_km2": 20.347,
+      "flooded_cells": 25085,
+      "risk": {
+        "low": 17619,
+        "moderate": 6081,
+        "high": 1356,
+        "severe": 29
+      },
+      "scale": 0.360183
+    },
+    {
+      "idx": 57,
+      "timestamp": null,
+      "minutes_from_start": 855,
+      "label": "14.25h",
+      "rainfall_mm_hr": 14.414,
+      "max_depth_m": 1.223,
+      "flooded_area_km2": 20.529,
+      "flooded_cells": 25310,
+      "risk": {
+        "low": 17655,
+        "moderate": 6162,
+        "high": 1458,
+        "severe": 35
+      },
+      "scale": 0.365758
+    },
+    {
+      "idx": 58,
+      "timestamp": null,
+      "minutes_from_start": 870,
+      "label": "14.50h",
+      "rainfall_mm_hr": 14.414,
+      "max_depth_m": 1.239,
+      "flooded_area_km2": 20.679,
+      "flooded_cells": 25495,
+      "risk": {
+        "low": 17687,
+        "moderate": 6238,
+        "high": 1533,
+        "severe": 37
+      },
+      "scale": 0.370621
+    },
+    {
+      "idx": 59,
+      "timestamp": null,
+      "minutes_from_start": 885,
+      "label": "14.75h",
+      "rainfall_mm_hr": 14.414,
+      "max_depth_m": 1.254,
+      "flooded_area_km2": 20.825,
+      "flooded_cells": 25675,
+      "risk": {
+        "low": 17711,
+        "moderate": 6307,
+        "high": 1617,
+        "severe": 40
+      },
+      "scale": 0.374973
+    },
+    {
+      "idx": 60,
+      "timestamp": null,
+      "minutes_from_start": 900,
+      "label": "15h",
+      "rainfall_mm_hr": 15.1,
+      "max_depth_m": 1.284,
+      "flooded_area_km2": 21.096,
+      "flooded_cells": 26009,
+      "risk": {
+        "low": 17748,
+        "moderate": 6419,
+        "high": 1797,
+        "severe": 45
+      },
+      "scale": 0.384012
+    },
+    {
+      "idx": 61,
+      "timestamp": null,
+      "minutes_from_start": 915,
+      "label": "15.25h",
+      "rainfall_mm_hr": 15.1,
+      "max_depth_m": 1.308,
+      "flooded_area_km2": 21.306,
+      "flooded_cells": 26268,
+      "risk": {
+        "low": 17763,
+        "moderate": 6490,
+        "high": 1923,
+        "severe": 92
+      },
+      "scale": 0.391218
+    },
+    {
+      "idx": 62,
+      "timestamp": null,
+      "minutes_from_start": 930,
+      "label": "15.50h",
+      "rainfall_mm_hr": 15.1,
+      "max_depth_m": 1.328,
+      "flooded_area_km2": 21.518,
+      "flooded_cells": 26529,
+      "risk": {
+        "low": 17833,
+        "moderate": 6546,
+        "high": 2013,
+        "severe": 137
+      },
+      "scale": 0.39715
+    },
+    {
+      "idx": 63,
+      "timestamp": null,
+      "minutes_from_start": 945,
+      "label": "15.75h",
+      "rainfall_mm_hr": 15.1,
+      "max_depth_m": 1.345,
+      "flooded_area_km2": 21.687,
+      "flooded_cells": 26737,
+      "risk": {
+        "low": 17902,
+        "moderate": 6495,
+        "high": 2171,
+        "severe": 169
+      },
+      "scale": 0.402192
+    },
+    {
+      "idx": 64,
+      "timestamp": null,
+      "minutes_from_start": 960,
+      "label": "16h",
+      "rainfall_mm_hr": 17.01,
+      "max_depth_m": 1.407,
+      "flooded_area_km2": 22.254,
+      "flooded_cells": 27437,
+      "risk": {
+        "low": 18021,
+        "moderate": 6383,
+        "high": 2814,
+        "severe": 219
+      },
+      "scale": 0.420824
+    },
+    {
+      "idx": 65,
+      "timestamp": null,
+      "minutes_from_start": 975,
+      "label": "16.25h",
+      "rainfall_mm_hr": 17.01,
+      "max_depth_m": 1.454,
+      "flooded_area_km2": 22.586,
+      "flooded_cells": 27846,
+      "risk": {
+        "low": 17994,
+        "moderate": 6456,
+        "high": 3147,
+        "severe": 249
+      },
+      "scale": 0.43465
+    },
+    {
+      "idx": 66,
+      "timestamp": null,
+      "minutes_from_start": 990,
+      "label": "16.50h",
+      "rainfall_mm_hr": 17.01,
+      "max_depth_m": 1.489,
+      "flooded_area_km2": 22.822,
+      "flooded_cells": 28137,
+      "risk": {
+        "low": 17985,
+        "moderate": 6530,
+        "high": 3338,
+        "severe": 284
+      },
+      "scale": 0.445155
+    },
+    {
+      "idx": 67,
+      "timestamp": null,
+      "minutes_from_start": 1005,
+      "label": "16.75h",
+      "rainfall_mm_hr": 17.01,
+      "max_depth_m": 1.516,
+      "flooded_area_km2": 23.007,
+      "flooded_cells": 28365,
+      "risk": {
+        "low": 17918,
+        "moderate": 6638,
+        "high": 3503,
+        "severe": 306
+      },
+      "scale": 0.453365
+    },
+    {
+      "idx": 68,
+      "timestamp": null,
+      "minutes_from_start": 1020,
+      "label": "17h",
+      "rainfall_mm_hr": 17.489,
+      "max_depth_m": 1.55,
+      "flooded_area_km2": 23.229,
+      "flooded_cells": 28639,
+      "risk": {
+        "low": 17838,
+        "moderate": 6766,
+        "high": 3706,
+        "severe": 329
+      },
+      "scale": 0.463604
+    },
+    {
+      "idx": 69,
+      "timestamp": null,
+      "minutes_from_start": 1035,
+      "label": "17.25h",
+      "rainfall_mm_hr": 17.489,
+      "max_depth_m": 1.577,
+      "flooded_area_km2": 23.388,
+      "flooded_cells": 28834,
+      "risk": {
+        "low": 17749,
+        "moderate": 6849,
+        "high": 3897,
+        "severe": 339
+      },
+      "scale": 0.471626
+    },
+    {
+      "idx": 70,
+      "timestamp": null,
+      "minutes_from_start": 1050,
+      "label": "17.50h",
+      "rainfall_mm_hr": 17.489,
+      "max_depth_m": 1.599,
+      "flooded_area_km2": 23.558,
+      "flooded_cells": 29044,
+      "risk": {
+        "low": 17750,
+        "moderate": 6902,
+        "high": 4044,
+        "severe": 348
+      },
+      "scale": 0.478114
+    },
+    {
+      "idx": 71,
+      "timestamp": null,
+      "minutes_from_start": 1065,
+      "label": "17.75h",
+      "rainfall_mm_hr": 17.489,
+      "max_depth_m": 1.617,
+      "flooded_area_km2": 23.665,
+      "flooded_cells": 29176,
+      "risk": {
+        "low": 17696,
+        "moderate": 6949,
+        "high": 4173,
+        "severe": 358
+      },
+      "scale": 0.483538
+    },
+    {
+      "idx": 72,
+      "timestamp": null,
+      "minutes_from_start": 1080,
+      "label": "18h",
+      "rainfall_mm_hr": 17.623,
+      "max_depth_m": 1.636,
+      "flooded_area_km2": 23.779,
+      "flooded_cells": 29316,
+      "risk": {
+        "low": 17674,
+        "moderate": 6985,
+        "high": 4291,
+        "severe": 366
+      },
+      "scale": 0.489234
+    },
+    {
+      "idx": 73,
+      "timestamp": null,
+      "minutes_from_start": 1095,
+      "label": "18.25h",
+      "rainfall_mm_hr": 17.623,
+      "max_depth_m": 1.652,
+      "flooded_area_km2": 23.87,
+      "flooded_cells": 29429,
+      "risk": {
+        "low": 17623,
+        "moderate": 7013,
+        "high": 4423,
+        "severe": 370
+      },
+      "scale": 0.494095
+    },
+    {
+      "idx": 74,
+      "timestamp": null,
+      "minutes_from_start": 1110,
+      "label": "18.50h",
+      "rainfall_mm_hr": 17.623,
+      "max_depth_m": 1.667,
+      "flooded_area_km2": 23.955,
+      "flooded_cells": 29534,
+      "risk": {
+        "low": 17594,
+        "moderate": 7010,
+        "high": 4556,
+        "severe": 374
+      },
+      "scale": 0.498371
+    },
+    {
+      "idx": 75,
+      "timestamp": null,
+      "minutes_from_start": 1125,
+      "label": "18.75h",
+      "rainfall_mm_hr": 17.623,
+      "max_depth_m": 1.68,
+      "flooded_area_km2": 24.022,
+      "flooded_cells": 29616,
+      "risk": {
+        "low": 17545,
+        "moderate": 7039,
+        "high": 4650,
+        "severe": 382
+      },
+      "scale": 0.502235
+    },
+    {
+      "idx": 76,
+      "timestamp": null,
+      "minutes_from_start": 1140,
+      "label": "19h",
+      "rainfall_mm_hr": 17.727,
+      "max_depth_m": 1.694,
+      "flooded_area_km2": 24.103,
+      "flooded_cells": 29716,
+      "risk": {
+        "low": 17494,
+        "moderate": 7059,
+        "high": 4770,
+        "severe": 393
+      },
+      "scale": 0.506599
+    },
+    {
+      "idx": 77,
+      "timestamp": null,
+      "minutes_from_start": 1155,
+      "label": "19.25h",
+      "rainfall_mm_hr": 17.727,
+      "max_depth_m": 1.707,
+      "flooded_area_km2": 24.177,
+      "flooded_cells": 29807,
+      "risk": {
+        "low": 17445,
+        "moderate": 7104,
+        "high": 4852,
+        "severe": 406
+      },
+      "scale": 0.510502
+    },
+    {
+      "idx": 78,
+      "timestamp": null,
+      "minutes_from_start": 1170,
+      "label": "19.50h",
+      "rainfall_mm_hr": 17.727,
+      "max_depth_m": 1.719,
+      "flooded_area_km2": 24.231,
+      "flooded_cells": 29874,
+      "risk": {
+        "low": 17385,
+        "moderate": 7123,
+        "high": 4947,
+        "severe": 419
+      },
+      "scale": 0.514078
+    },
+    {
+      "idx": 79,
+      "timestamp": null,
+      "minutes_from_start": 1185,
+      "label": "19.75h",
+      "rainfall_mm_hr": 17.727,
+      "max_depth_m": 1.73,
+      "flooded_area_km2": 24.299,
+      "flooded_cells": 29958,
+      "risk": {
+        "low": 17351,
+        "moderate": 7154,
+        "high": 5017,
+        "severe": 436
+      },
+      "scale": 0.51742
+    },
+    {
+      "idx": 80,
+      "timestamp": null,
+      "minutes_from_start": 1200,
+      "label": "20h",
+      "rainfall_mm_hr": 17.996,
+      "max_depth_m": 1.748,
+      "flooded_area_km2": 24.385,
+      "flooded_cells": 30064,
+      "risk": {
+        "low": 17287,
+        "moderate": 7201,
+        "high": 5111,
+        "severe": 465
+      },
+      "scale": 0.522652
+    },
+    {
+      "idx": 81,
+      "timestamp": null,
+      "minutes_from_start": 1215,
+      "label": "20.25h",
+      "rainfall_mm_hr": 17.996,
+      "max_depth_m": 1.763,
+      "flooded_area_km2": 24.467,
+      "flooded_cells": 30165,
+      "risk": {
+        "low": 17233,
+        "moderate": 7263,
+        "high": 5175,
+        "severe": 494
+      },
+      "scale": 0.527112
+    },
+    {
+      "idx": 82,
+      "timestamp": null,
+      "minutes_from_start": 1230,
+      "label": "20.50h",
+      "rainfall_mm_hr": 17.996,
+      "max_depth_m": 1.776,
+      "flooded_area_km2": 24.53,
+      "flooded_cells": 30242,
+      "risk": {
+        "low": 17190,
+        "moderate": 7263,
+        "high": 5274,
+        "severe": 515
+      },
+      "scale": 0.531036
+    },
+    {
+      "idx": 83,
+      "timestamp": null,
+      "minutes_from_start": 1245,
+      "label": "20.75h",
+      "rainfall_mm_hr": 17.996,
+      "max_depth_m": 1.788,
+      "flooded_area_km2": 24.593,
+      "flooded_cells": 30320,
+      "risk": {
+        "low": 17141,
+        "moderate": 7298,
+        "high": 5357,
+        "severe": 524
+      },
+      "scale": 0.534584
+    },
+    {
+      "idx": 84,
+      "timestamp": null,
+      "minutes_from_start": 1260,
+      "label": "21h",
+      "rainfall_mm_hr": 20.84,
+      "max_depth_m": 1.872,
+      "flooded_area_km2": 24.987,
+      "flooded_cells": 30806,
+      "risk": {
+        "low": 16771,
+        "moderate": 7523,
+        "high": 5873,
+        "severe": 639
+      },
+      "scale": 0.559776
+    },
+    {
+      "idx": 85,
+      "timestamp": null,
+      "minutes_from_start": 1275,
+      "label": "21.25h",
+      "rainfall_mm_hr": 20.84,
+      "max_depth_m": 1.933,
+      "flooded_area_km2": 25.242,
+      "flooded_cells": 31120,
+      "risk": {
+        "low": 16550,
+        "moderate": 7602,
+        "high": 6271,
+        "severe": 697
+      },
+      "scale": 0.578002
+    },
+    {
+      "idx": 86,
+      "timestamp": null,
+      "minutes_from_start": 1290,
+      "label": "21.50h",
+      "rainfall_mm_hr": 20.84,
+      "max_depth_m": 1.978,
+      "flooded_area_km2": 25.422,
+      "flooded_cells": 31342,
+      "risk": {
+        "low": 16394,
+        "moderate": 7668,
+        "high": 6547,
+        "severe": 733
+      },
+      "scale": 0.591431
+    },
+    {
+      "idx": 87,
+      "timestamp": null,
+      "minutes_from_start": 1305,
+      "label": "21.75h",
+      "rainfall_mm_hr": 20.84,
+      "max_depth_m": 2.012,
+      "flooded_area_km2": 25.57,
+      "flooded_cells": 31525,
+      "risk": {
+        "low": 16299,
+        "moderate": 7737,
+        "high": 6716,
+        "severe": 773
+      },
+      "scale": 0.601564
+    },
+    {
+      "idx": 88,
+      "timestamp": null,
+      "minutes_from_start": 1320,
+      "label": "22h",
+      "rainfall_mm_hr": 24.35,
+      "max_depth_m": 2.13,
+      "flooded_area_km2": 26.024,
+      "flooded_cells": 32084,
+      "risk": {
+        "low": 15906,
+        "moderate": 7975,
+        "high": 7313,
+        "severe": 890
+      },
+      "scale": 0.636969
+    },
+    {
+      "idx": 89,
+      "timestamp": null,
+      "minutes_from_start": 1335,
+      "label": "22.25h",
+      "rainfall_mm_hr": 24.35,
+      "max_depth_m": 2.215,
+      "flooded_area_km2": 26.354,
+      "flooded_cells": 32491,
+      "risk": {
+        "low": 15652,
+        "moderate": 8140,
+        "high": 7681,
+        "severe": 1018
+      },
+      "scale": 0.662335
+    },
+    {
+      "idx": 90,
+      "timestamp": null,
+      "minutes_from_start": 1350,
+      "label": "22.50h",
+      "rainfall_mm_hr": 24.35,
+      "max_depth_m": 2.277,
+      "flooded_area_km2": 26.578,
+      "flooded_cells": 32768,
+      "risk": {
+        "low": 15413,
+        "moderate": 8327,
+        "high": 7914,
+        "severe": 1114
+      },
+      "scale": 0.680775
+    },
+    {
+      "idx": 91,
+      "timestamp": null,
+      "minutes_from_start": 1365,
+      "label": "22.75h",
+      "rainfall_mm_hr": 24.35,
+      "max_depth_m": 2.322,
+      "flooded_area_km2": 26.729,
+      "flooded_cells": 32954,
+      "risk": {
+        "low": 15228,
+        "moderate": 8456,
+        "high": 8051,
+        "severe": 1219
+      },
+      "scale": 0.694453
+    },
+    {
+      "idx": 92,
+      "timestamp": null,
+      "minutes_from_start": 1380,
+      "label": "23h",
+      "rainfall_mm_hr": 28.217,
+      "max_depth_m": 2.461,
+      "flooded_area_km2": 27.212,
+      "flooded_cells": 33549,
+      "risk": {
+        "low": 14785,
+        "moderate": 8712,
+        "high": 8527,
+        "severe": 1525
+      },
+      "scale": 0.735844
+    },
+    {
+      "idx": 93,
+      "timestamp": null,
+      "minutes_from_start": 1395,
+      "label": "23.25h",
+      "rainfall_mm_hr": 28.217,
+      "max_depth_m": 2.56,
+      "flooded_area_km2": 27.537,
+      "flooded_cells": 33950,
+      "risk": {
+        "low": 14467,
+        "moderate": 8854,
+        "high": 8808,
+        "severe": 1821
+      },
+      "scale": 0.765439
+    },
+    {
+      "idx": 94,
+      "timestamp": null,
+      "minutes_from_start": 1410,
+      "label": "23.50h",
+      "rainfall_mm_hr": 28.217,
+      "max_depth_m": 2.632,
+      "flooded_area_km2": 27.751,
+      "flooded_cells": 34213,
+      "risk": {
+        "low": 14283,
+        "moderate": 8827,
+        "high": 9031,
+        "severe": 2072
+      },
+      "scale": 0.786896
+    },
+    {
+      "idx": 95,
+      "timestamp": null,
+      "minutes_from_start": 1425,
+      "label": "23.75h",
+      "rainfall_mm_hr": 28.217,
+      "max_depth_m": 2.685,
+      "flooded_area_km2": 27.928,
+      "flooded_cells": 34432,
+      "risk": {
+        "low": 14142,
+        "moderate": 8879,
+        "high": 9168,
+        "severe": 2243
+      },
+      "scale": 0.802756
+    },
+    {
+      "idx": 96,
+      "timestamp": null,
+      "minutes_from_start": 1440,
+      "label": "24h",
+      "rainfall_mm_hr": 31.881,
+      "max_depth_m": 2.825,
+      "flooded_area_km2": 28.331,
+      "flooded_cells": 34929,
+      "risk": {
+        "low": 13824,
+        "moderate": 8870,
+        "high": 9166,
+        "severe": 3069
+      },
+      "scale": 0.844729
+    },
+    {
+      "idx": 97,
+      "timestamp": null,
+      "minutes_from_start": 1455,
+      "label": "24.25h",
+      "rainfall_mm_hr": 31.881,
+      "max_depth_m": 2.926,
+      "flooded_area_km2": 28.621,
+      "flooded_cells": 35286,
+      "risk": {
+        "low": 13575,
+        "moderate": 8854,
+        "high": 9407,
+        "severe": 3450
+      },
+      "scale": 0.874803
+    },
+    {
+      "idx": 98,
+      "timestamp": null,
+      "minutes_from_start": 1470,
+      "label": "24.50h",
+      "rainfall_mm_hr": 31.881,
+      "max_depth_m": 2.999,
+      "flooded_area_km2": 28.837,
+      "flooded_cells": 35553,
+      "risk": {
+        "low": 13449,
+        "moderate": 8811,
+        "high": 9591,
+        "severe": 3702
+      },
+      "scale": 0.896678
+    },
+    {
+      "idx": 99,
+      "timestamp": null,
+      "minutes_from_start": 1485,
+      "label": "24.75h",
+      "rainfall_mm_hr": 31.881,
+      "max_depth_m": 3.053,
+      "flooded_area_km2": 28.966,
+      "flooded_cells": 35711,
+      "risk": {
+        "low": 13318,
+        "moderate": 8740,
+        "high": 9765,
+        "severe": 3888
+      },
+      "scale": 0.912918
+    },
+    {
+      "idx": 100,
+      "timestamp": null,
+      "minutes_from_start": 1500,
+      "label": "25h",
+      "rainfall_mm_hr": 32.999,
+      "max_depth_m": 3.125,
+      "flooded_area_km2": 29.174,
+      "flooded_cells": 35968,
+      "risk": {
+        "low": 13183,
+        "moderate": 8719,
+        "high": 9932,
+        "severe": 4134
+      },
+      "scale": 0.934586
+    },
+    {
+      "idx": 101,
+      "timestamp": null,
+      "minutes_from_start": 1515,
+      "label": "25.25h",
+      "rainfall_mm_hr": 32.999,
+      "max_depth_m": 3.179,
+      "flooded_area_km2": 29.321,
+      "flooded_cells": 36149,
+      "risk": {
+        "low": 13065,
+        "moderate": 8749,
+        "high": 10006,
+        "severe": 4329
+      },
+      "scale": 0.950698
+    },
+    {
+      "idx": 102,
+      "timestamp": null,
+      "minutes_from_start": 1530,
+      "label": "25.50h",
+      "rainfall_mm_hr": 32.999,
+      "max_depth_m": 3.22,
+      "flooded_area_km2": 29.444,
+      "flooded_cells": 36301,
+      "risk": {
+        "low": 12994,
+        "moderate": 8746,
+        "high": 10080,
+        "severe": 4481
+      },
+      "scale": 0.962998
+    },
+    {
+      "idx": 103,
+      "timestamp": null,
+      "minutes_from_start": 1545,
+      "label": "25.75h",
+      "rainfall_mm_hr": 32.999,
+      "max_depth_m": 3.253,
+      "flooded_area_km2": 29.508,
+      "flooded_cells": 36380,
+      "risk": {
+        "low": 12891,
+        "moderate": 8775,
+        "high": 10115,
+        "severe": 4599
+      },
+      "scale": 0.97268
+    },
+    {
+      "idx": 104,
+      "timestamp": null,
+      "minutes_from_start": 1560,
+      "label": "26h",
+      "rainfall_mm_hr": 33.087,
+      "max_depth_m": 3.282,
+      "flooded_area_km2": 29.576,
+      "flooded_cells": 36463,
+      "risk": {
+        "low": 12837,
+        "moderate": 8753,
+        "high": 10178,
+        "severe": 4695
+      },
+      "scale": 0.981301
+    },
+    {
+      "idx": 105,
+      "timestamp": null,
+      "minutes_from_start": 1575,
+      "label": "26.25h",
+      "rainfall_mm_hr": 33.087,
+      "max_depth_m": 3.306,
+      "flooded_area_km2": 29.653,
+      "flooded_cells": 36559,
+      "risk": {
+        "low": 12812,
+        "moderate": 8761,
+        "high": 10188,
+        "severe": 4798
+      },
+      "scale": 0.988448
+    },
+    {
+      "idx": 106,
+      "timestamp": null,
+      "minutes_from_start": 1590,
+      "label": "26.50h",
+      "rainfall_mm_hr": 33.087,
+      "max_depth_m": 3.326,
+      "flooded_area_km2": 29.708,
+      "flooded_cells": 36626,
+      "risk": {
+        "low": 12769,
+        "moderate": 8760,
+        "high": 10199,
+        "severe": 4898
+      },
+      "scale": 0.994578
+    },
+    {
+      "idx": 107,
+      "timestamp": null,
+      "minutes_from_start": 1605,
+      "label": "26.75h",
+      "rainfall_mm_hr": 33.087,
+      "max_depth_m": 3.344,
+      "flooded_area_km2": 29.76,
+      "flooded_cells": 36690,
+      "risk": {
+        "low": 12747,
+        "moderate": 8757,
+        "high": 10214,
+        "severe": 4972
+      },
+      "scale": 1.0
+    },
+    {
+      "idx": 108,
+      "timestamp": null,
+      "minutes_from_start": 1620,
+      "label": "27h",
+      "rainfall_mm_hr": 0.022,
+      "max_depth_m": 2.453,
+      "flooded_area_km2": 27.18,
+      "flooded_cells": 33510,
+      "risk": {
+        "low": 14794,
+        "moderate": 8699,
+        "high": 8506,
+        "severe": 1511
+      },
+      "scale": 0.733479
+    },
+    {
+      "idx": 109,
+      "timestamp": null,
+      "minutes_from_start": 1635,
+      "label": "27.25h",
+      "rainfall_mm_hr": 0.022,
+      "max_depth_m": 1.873,
+      "flooded_area_km2": 24.994,
+      "flooded_cells": 30815,
+      "risk": {
+        "low": 16766,
+        "moderate": 7523,
+        "high": 5887,
+        "severe": 639
+      },
+      "scale": 0.560131
+    },
+    {
+      "idx": 110,
+      "timestamp": null,
+      "minutes_from_start": 1650,
+      "label": "27.50h",
+      "rainfall_mm_hr": 0.022,
+      "max_depth_m": 1.494,
+      "flooded_area_km2": 22.855,
+      "flooded_cells": 28178,
+      "risk": {
+        "low": 17986,
+        "moderate": 6527,
+        "high": 3376,
+        "severe": 289
+      },
+      "scale": 0.446659
+    },
+    {
+      "idx": 111,
+      "timestamp": null,
+      "minutes_from_start": 1665,
+      "label": "27.75h",
+      "rainfall_mm_hr": 0.022,
+      "max_depth_m": 1.244,
+      "flooded_area_km2": 20.722,
+      "flooded_cells": 25548,
+      "risk": {
+        "low": 17701,
+        "moderate": 6252,
+        "high": 1557,
+        "severe": 38
+      },
+      "scale": 0.371888
+    },
+    {
+      "idx": 112,
+      "timestamp": null,
+      "minutes_from_start": 1680,
+      "label": "28h",
+      "rainfall_mm_hr": 0.064,
+      "max_depth_m": 1.079,
+      "flooded_area_km2": 18.978,
+      "flooded_cells": 23397,
+      "risk": {
+        "low": 17445,
+        "moderate": 5024,
+        "high": 922,
+        "severe": 6
+      },
+      "scale": 0.322592
+    },
+    {
+      "idx": 113,
+      "timestamp": null,
+      "minutes_from_start": 1695,
+      "label": "28.25h",
+      "rainfall_mm_hr": 0.064,
+      "max_depth_m": 0.969,
+      "flooded_area_km2": 17.517,
+      "flooded_cells": 21596,
+      "risk": {
+        "low": 17082,
+        "moderate": 3815,
+        "high": 699,
+        "severe": 0
+      },
+      "scale": 0.289708
+    },
+    {
+      "idx": 114,
+      "timestamp": null,
+      "minutes_from_start": 1710,
+      "label": "28.50h",
+      "rainfall_mm_hr": 0.064,
+      "max_depth_m": 0.895,
+      "flooded_area_km2": 16.458,
+      "flooded_cells": 20291,
+      "risk": {
+        "low": 16640,
+        "moderate": 3123,
+        "high": 528,
+        "severe": 0
+      },
+      "scale": 0.267667
+    },
+    {
+      "idx": 115,
+      "timestamp": null,
+      "minutes_from_start": 1725,
+      "label": "28.75h",
+      "rainfall_mm_hr": 0.064,
+      "max_depth_m": 0.846,
+      "flooded_area_km2": 15.637,
+      "flooded_cells": 19278,
+      "risk": {
+        "low": 16231,
+        "moderate": 2655,
+        "high": 392,
+        "severe": 0
+      },
+      "scale": 0.252836
+    },
+    {
+      "idx": 116,
+      "timestamp": null,
+      "minutes_from_start": 1740,
+      "label": "29h",
+      "rainfall_mm_hr": 0.146,
+      "max_depth_m": 0.814,
+      "flooded_area_km2": 15.122,
+      "flooded_cells": 18644,
+      "risk": {
+        "low": 16172,
+        "moderate": 2109,
+        "high": 363,
+        "severe": 0
+      },
+      "scale": 0.243387
+    },
+    {
+      "idx": 117,
+      "timestamp": null,
+      "minutes_from_start": 1755,
+      "label": "29.25h",
+      "rainfall_mm_hr": 0.146,
+      "max_depth_m": 0.793,
+      "flooded_area_km2": 14.727,
+      "flooded_cells": 18156,
+      "risk": {
+        "low": 16047,
+        "moderate": 1766,
+        "high": 343,
+        "severe": 0
+      },
+      "scale": 0.236999
+    },
+    {
+      "idx": 118,
+      "timestamp": null,
+      "minutes_from_start": 1770,
+      "label": "29.50h",
+      "rainfall_mm_hr": 0.146,
+      "max_depth_m": 0.778,
+      "flooded_area_km2": 14.455,
+      "flooded_cells": 17821,
+      "risk": {
+        "low": 15908,
+        "moderate": 1581,
+        "high": 332,
+        "severe": 0
+      },
+      "scale": 0.232674
+    },
+    {
+      "idx": 119,
+      "timestamp": null,
+      "minutes_from_start": 1785,
+      "label": "29.75h",
+      "rainfall_mm_hr": 0.146,
+      "max_depth_m": 0.768,
+      "flooded_area_km2": 14.271,
+      "flooded_cells": 17595,
+      "risk": {
+        "low": 15772,
+        "moderate": 1503,
+        "high": 320,
+        "severe": 0
+      },
+      "scale": 0.229744
+    },
+    {
+      "idx": 120,
+      "timestamp": null,
+      "minutes_from_start": 1800,
+      "label": "30h",
+      "rainfall_mm_hr": 1.184,
+      "max_depth_m": 0.785,
+      "flooded_area_km2": 14.585,
+      "flooded_cells": 17981,
+      "risk": {
+        "low": 15966,
+        "moderate": 1681,
+        "high": 334,
+        "severe": 0
+      },
+      "scale": 0.234729
+    },
+    {
+      "idx": 121,
+      "timestamp": null,
+      "minutes_from_start": 1815,
+      "label": "30.25h",
+      "rainfall_mm_hr": 1.184,
+      "max_depth_m": 0.796,
+      "flooded_area_km2": 14.817,
+      "flooded_cells": 18268,
+      "risk": {
+        "low": 16122,
+        "moderate": 1802,
+        "high": 344,
+        "severe": 0
+      },
+      "scale": 0.238165
+    },
+    {
+      "idx": 122,
+      "timestamp": null,
+      "minutes_from_start": 1830,
+      "label": "30.50h",
+      "rainfall_mm_hr": 1.184,
+      "max_depth_m": 0.804,
+      "flooded_area_km2": 14.971,
+      "flooded_cells": 18458,
+      "risk": {
+        "low": 16224,
+        "moderate": 1879,
+        "high": 355,
+        "severe": 0
+      },
+      "scale": 0.240542
+    },
+    {
+      "idx": 123,
+      "timestamp": null,
+      "minutes_from_start": 1845,
+      "label": "30.75h",
+      "rainfall_mm_hr": 1.184,
+      "max_depth_m": 0.81,
+      "flooded_area_km2": 15.066,
+      "flooded_cells": 18574,
+      "risk": {
+        "low": 16171,
+        "moderate": 2044,
+        "high": 359,
+        "severe": 0
+      },
+      "scale": 0.242198
+    },
+    {
+      "idx": 124,
+      "timestamp": null,
+      "minutes_from_start": 1860,
+      "label": "31h",
+      "rainfall_mm_hr": 1.294,
+      "max_depth_m": 0.816,
+      "flooded_area_km2": 15.164,
+      "flooded_cells": 18695,
+      "risk": {
+        "low": 16188,
+        "moderate": 2143,
+        "high": 364,
+        "severe": 0
+      },
+      "scale": 0.2441
+    },
+    {
+      "idx": 125,
+      "timestamp": null,
+      "minutes_from_start": 1875,
+      "label": "31.25h",
+      "rainfall_mm_hr": 1.294,
+      "max_depth_m": 0.821,
+      "flooded_area_km2": 15.229,
+      "flooded_cells": 18775,
+      "risk": {
+        "low": 16134,
+        "moderate": 2274,
+        "high": 367,
+        "severe": 0
+      },
+      "scale": 0.245434
+    },
+    {
+      "idx": 126,
+      "timestamp": null,
+      "minutes_from_start": 1890,
+      "label": "31.50h",
+      "rainfall_mm_hr": 1.294,
+      "max_depth_m": 0.824,
+      "flooded_area_km2": 15.268,
+      "flooded_cells": 18824,
+      "risk": {
+        "low": 16126,
+        "moderate": 2329,
+        "high": 369,
+        "severe": 0
+      },
+      "scale": 0.246383
+    },
+    {
+      "idx": 127,
+      "timestamp": null,
+      "minutes_from_start": 1905,
+      "label": "31.75h",
+      "rainfall_mm_hr": 1.294,
+      "max_depth_m": 0.826,
+      "flooded_area_km2": 15.294,
+      "flooded_cells": 18856,
+      "risk": {
+        "low": 16101,
+        "moderate": 2385,
+        "high": 370,
+        "severe": 0
+      },
+      "scale": 0.247068
+    },
+    {
+      "idx": 128,
+      "timestamp": null,
+      "minutes_from_start": 1920,
+      "label": "32h",
+      "rainfall_mm_hr": 1.349,
+      "max_depth_m": 0.829,
+      "flooded_area_km2": 15.345,
+      "flooded_cells": 18918,
+      "risk": {
+        "low": 16115,
+        "moderate": 2431,
+        "high": 372,
+        "severe": 0
+      },
+      "scale": 0.24795
+    },
+    {
+      "idx": 129,
+      "timestamp": null,
+      "minutes_from_start": 1935,
+      "label": "32.25h",
+      "rainfall_mm_hr": 1.349,
+      "max_depth_m": 0.831,
+      "flooded_area_km2": 15.375,
+      "flooded_cells": 18955,
+      "risk": {
+        "low": 16119,
+        "moderate": 2463,
+        "high": 373,
+        "severe": 0
+      },
+      "scale": 0.248592
+    },
+    {
+      "idx": 130,
+      "timestamp": null,
+      "minutes_from_start": 1950,
+      "label": "32.50h",
+      "rainfall_mm_hr": 1.349,
+      "max_depth_m": 0.833,
+      "flooded_area_km2": 15.406,
+      "flooded_cells": 18994,
+      "risk": {
+        "low": 16138,
+        "moderate": 2482,
+        "high": 374,
+        "severe": 0
+      },
+      "scale": 0.249071
+    },
+    {
+      "idx": 131,
+      "timestamp": null,
+      "minutes_from_start": 1965,
+      "label": "32.75h",
+      "rainfall_mm_hr": 1.349,
+      "max_depth_m": 0.834,
+      "flooded_area_km2": 15.427,
+      "flooded_cells": 19019,
+      "risk": {
+        "low": 16148,
+        "moderate": 2494,
+        "high": 377,
+        "severe": 0
+      },
+      "scale": 0.249438
+    },
+    {
+      "idx": 132,
+      "timestamp": null,
+      "minutes_from_start": 1980,
+      "label": "33h",
+      "rainfall_mm_hr": 1.516,
+      "max_depth_m": 0.839,
+      "flooded_area_km2": 15.5,
+      "flooded_cells": 19109,
+      "risk": {
+        "low": 16162,
+        "moderate": 2565,
+        "high": 382,
+        "severe": 0
+      },
+      "scale": 0.250869
+    },
+    {
+      "idx": 133,
+      "timestamp": null,
+      "minutes_from_start": 1995,
+      "label": "33.25h",
+      "rainfall_mm_hr": 1.516,
+      "max_depth_m": 0.842,
+      "flooded_area_km2": 15.539,
+      "flooded_cells": 19158,
+      "risk": {
+        "low": 16164,
+        "moderate": 2610,
+        "high": 384,
+        "severe": 0
+      },
+      "scale": 0.251889
+    },
+    {
+      "idx": 134,
+      "timestamp": null,
+      "minutes_from_start": 2010,
+      "label": "33.50h",
+      "rainfall_mm_hr": 1.516,
+      "max_depth_m": 0.845,
+      "flooded_area_km2": 15.624,
+      "flooded_cells": 19262,
+      "risk": {
+        "low": 16224,
+        "moderate": 2648,
+        "high": 390,
+        "severe": 0
+      },
+      "scale": 0.25263
+    },
+    {
+      "idx": 135,
+      "timestamp": null,
+      "minutes_from_start": 2025,
+      "label": "33.75h",
+      "rainfall_mm_hr": 1.516,
+      "max_depth_m": 0.847,
+      "flooded_area_km2": 15.657,
+      "flooded_cells": 19303,
+      "risk": {
+        "low": 16244,
+        "moderate": 2667,
+        "high": 392,
+        "severe": 0
+      },
+      "scale": 0.253181
+    },
+    {
+      "idx": 136,
+      "timestamp": null,
+      "minutes_from_start": 2040,
+      "label": "34h",
+      "rainfall_mm_hr": 1.585,
+      "max_depth_m": 0.85,
+      "flooded_area_km2": 15.742,
+      "flooded_cells": 19408,
+      "risk": {
+        "low": 16315,
+        "moderate": 2695,
+        "high": 398,
+        "severe": 0
+      },
+      "scale": 0.254069
+    },
+    {
+      "idx": 137,
+      "timestamp": null,
+      "minutes_from_start": 2055,
+      "label": "34.25h",
+      "rainfall_mm_hr": 1.585,
+      "max_depth_m": 0.852,
+      "flooded_area_km2": 15.784,
+      "flooded_cells": 19460,
+      "risk": {
+        "low": 16337,
+        "moderate": 2720,
+        "high": 403,
+        "severe": 0
+      },
+      "scale": 0.254722
+    },
+    {
+      "idx": 138,
+      "timestamp": null,
+      "minutes_from_start": 2070,
+      "label": "34.50h",
+      "rainfall_mm_hr": 1.585,
+      "max_depth_m": 0.853,
+      "flooded_area_km2": 15.804,
+      "flooded_cells": 19485,
+      "risk": {
+        "low": 16343,
+        "moderate": 2736,
+        "high": 406,
+        "severe": 0
+      },
+      "scale": 0.255216
+    },
+    {
+      "idx": 139,
+      "timestamp": null,
+      "minutes_from_start": 2085,
+      "label": "34.75h",
+      "rainfall_mm_hr": 1.585,
+      "max_depth_m": 0.855,
+      "flooded_area_km2": 15.826,
+      "flooded_cells": 19511,
+      "risk": {
+        "low": 16349,
+        "moderate": 2753,
+        "high": 409,
+        "severe": 0
+      },
+      "scale": 0.255601
+    },
+    {
+      "idx": 140,
+      "timestamp": null,
+      "minutes_from_start": 2100,
+      "label": "35h",
+      "rainfall_mm_hr": 1.604,
+      "max_depth_m": 0.856,
+      "flooded_area_km2": 15.858,
+      "flooded_cells": 19551,
+      "risk": {
+        "low": 16376,
+        "moderate": 2762,
+        "high": 413,
+        "severe": 0
+      },
+      "scale": 0.256042
+    },
+    {
+      "idx": 141,
+      "timestamp": null,
+      "minutes_from_start": 2115,
+      "label": "35.25h",
+      "rainfall_mm_hr": 1.604,
+      "max_depth_m": 0.857,
+      "flooded_area_km2": 15.877,
+      "flooded_cells": 19575,
+      "risk": {
+        "low": 16379,
+        "moderate": 2781,
+        "high": 415,
+        "severe": 0
+      },
+      "scale": 0.256392
+    },
+    {
+      "idx": 142,
+      "timestamp": null,
+      "minutes_from_start": 2130,
+      "label": "35.50h",
+      "rainfall_mm_hr": 1.604,
+      "max_depth_m": 0.858,
+      "flooded_area_km2": 15.889,
+      "flooded_cells": 19589,
+      "risk": {
+        "low": 16376,
+        "moderate": 2797,
+        "high": 416,
+        "severe": 0
+      },
+      "scale": 0.256679
+    },
+    {
+      "idx": 143,
+      "timestamp": null,
+      "minutes_from_start": 2145,
+      "label": "35.75h",
+      "rainfall_mm_hr": 1.604,
+      "max_depth_m": 0.859,
+      "flooded_area_km2": 15.903,
+      "flooded_cells": 19607,
+      "risk": {
+        "low": 16384,
+        "moderate": 2806,
+        "high": 417,
+        "severe": 0
+      },
+      "scale": 0.256924
+    },
+    {
+      "idx": 144,
+      "timestamp": null,
+      "minutes_from_start": 2160,
+      "label": "36h",
+      "rainfall_mm_hr": 1.875,
+      "max_depth_m": 0.866,
+      "flooded_area_km2": 16.01,
+      "flooded_cells": 19738,
+      "risk": {
+        "low": 16420,
+        "moderate": 2878,
+        "high": 440,
+        "severe": 0
+      },
+      "scale": 0.258988
+    },
+    {
+      "idx": 145,
+      "timestamp": null,
+      "minutes_from_start": 2175,
+      "label": "36.25h",
+      "rainfall_mm_hr": 1.875,
+      "max_depth_m": 0.871,
+      "flooded_area_km2": 16.085,
+      "flooded_cells": 19831,
+      "risk": {
+        "low": 16451,
+        "moderate": 2929,
+        "high": 451,
+        "severe": 0
+      },
+      "scale": 0.260451
+    },
+    {
+      "idx": 146,
+      "timestamp": null,
+      "minutes_from_start": 2190,
+      "label": "36.50h",
+      "rainfall_mm_hr": 1.875,
+      "max_depth_m": 0.875,
+      "flooded_area_km2": 16.139,
+      "flooded_cells": 19898,
+      "risk": {
+        "low": 16478,
+        "moderate": 2952,
+        "high": 468,
+        "severe": 0
+      },
+      "scale": 0.261505
+    },
+    {
+      "idx": 147,
+      "timestamp": null,
+      "minutes_from_start": 2205,
+      "label": "36.75h",
+      "rainfall_mm_hr": 1.875,
+      "max_depth_m": 0.877,
+      "flooded_area_km2": 16.164,
+      "flooded_cells": 19928,
+      "risk": {
+        "low": 16481,
+        "moderate": 2974,
+        "high": 473,
+        "severe": 0
+      },
+      "scale": 0.26228
+    }
+  ]
+}

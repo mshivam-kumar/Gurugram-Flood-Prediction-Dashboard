@@ -1,0 +1,96 @@
+{
+  "bundle_type": "static",
+  "source_id": "block_200",
+  "city": "Gurugram",
+  "bounds": [
+    [
+      28.35,
+      76.9
+    ],
+    [
+      28.55,
+      77.15
+    ]
+  ],
+  "grid_shape": [
+    1134,
+    1384
+  ],
+  "cell_size_m": 28.48,
+  "timestep_minutes": 15,
+  "available_layers": [
+    "water_depth",
+    "hazard_band",
+    "flood_extent",
+    "risk_cells"
+  ],
+  "default_layer": "water_depth",
+  "duration_hours": 37,
+  "legends": {
+    "water_depth": [
+      {
+        "label": "0.10-0.30 m",
+        "color": "#facc15"
+      },
+      {
+        "label": "0.30-0.50 m",
+        "color": "#f97316"
+      },
+      {
+        "label": "0.50-1.00 m",
+        "color": "#ef4444"
+      },
+      {
+        "label": ">1.00 m",
+        "color": "#7e22ce"
+      }
+    ],
+    "hazard_band": [
+      {
+        "label": "Low",
+        "color": "#4ade80"
+      },
+      {
+        "label": "Moderate",
+        "color": "#facc15"
+      },
+      {
+        "label": "High",
+        "color": "#f97316"
+      },
+      {
+        "label": "Severe",
+        "color": "#dc2626"
+      }
+    ],
+    "flood_extent": [
+      {
+        "label": "Flooded cells",
+        "color": "#38bdf8"
+      }
+    ],
+    "risk_cells": [
+      {
+        "label": "0.1-0.3 m",
+        "color": "#60a5fa"
+      },
+      {
+        "label": "0.3-0.5 m",
+        "color": "#facc15"
+      },
+      {
+        "label": "0.5-1.0 m",
+        "color": "#f87171"
+      },
+      {
+        "label": ">1.0 m",
+        "color": "#9333ea"
+      }
+    ]
+  },
+  "scenario_id": "block_200",
+  "title": "Block rainfall 200 mm",
+  "family": "block",
+  "total_rainfall_mm": 200.0,
+  "asset_version": 3
+}
