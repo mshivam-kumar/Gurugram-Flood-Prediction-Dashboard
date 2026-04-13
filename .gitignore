@@ -7,3 +7,4 @@ __pycache__/
 venv/
 .env
 assets/dynamic_runs/
+assets/static_scenarios/random_350/depth_frames.npz
